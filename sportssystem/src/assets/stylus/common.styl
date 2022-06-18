@@ -1,0 +1,109 @@
+@import './variable.styl'
+//@import './mixin.styl'
+
+html, body
+    height 100%
+.container
+    width 100%
+    height 100%
+.margin_top_10
+    margin-top 10px
+.margin_top_20
+    margin-top 20px
+.btnBox
+    width 100%
+    display flex
+    justify-content space-between
+    .left
+        boxSizing()
+    .right
+        boxSizing()
+        text-align right
+.flexAround
+    display flex
+    justify-content space-around
+    align-items center
+.conditionSearchBox
+    width 100%
+    padding 10px
+    boxSizing()
+    margin-bottom 20px
+    margin-top 20px
+.drawingBox
+    width 100%
+.paginationBox
+    width 100%
+    margin-top 30px
+    margin-bottom 60px
+.formWidth
+    width 600px
+.cellBox
+    width 100%
+    height auto
+    .cellItem
+        display flex
+        height 30px
+        line-height 30px
+        border-bottom 1px solid #ddd
+        .cellItemKey
+            flex 1
+        .cellItemValue
+            flex 1
+            color #409EFF
+blockquote
+    display block
+    border-left 8px solid #d0e5f2
+    padding 5px 10px
+    margin 10px 0
+    line-height 1.4
+    font-size 100%
+    background-color #f1f1f1
+code
+    display block
+    background-color #222
+    border-radius 5px
+    padding 5px
+    margin 0 3px
+    color #32CD32
+    overflow-x auto
+.finger
+    cursor pointer
+.img_response
+    display block
+    max-width 100%
+    height auto
+.formImagePreview
+    display flex
+    justify-content flex-start
+    align-items flex-start
+.formImageButton
+    width 200px
+    height 40px
+    display flex
+    justify-content flex-start
+.formImageImg
+    border 1px solid #eee
+    width 100px
+    height 100px
+.formImageImg img
+    width 100px
+    height 100px
+
+
+.detailItem
+    width: 100%;
+    height: 40px;
+    line-height 40px
+    display: flex
+    align-items center
+
+    .detailItemTitle
+        width: 30%;
+        color: $color-default
+
+    .detailItemValue
+        width: 70%
+        color: $color-annotation
+.loginIcon
+    width: 200px
+    height: 200px
