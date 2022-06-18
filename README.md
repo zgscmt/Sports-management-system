@@ -3,3 +3,5 @@
 sportssystem：前端Vue代码
 
 sportSystem:后端Node代码
+
+登录测试账号 admin  123456
